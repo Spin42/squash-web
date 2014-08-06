@@ -8,7 +8,7 @@ set :branch, ENV["branch"] || "master"
 set :deploy_to, "/home/squash-web"
 
 set :rvm_type, :user
-set :rvm_ruby_version, "jruby-1.7.130@squash-web"
+set :rvm_ruby_version, "jruby-1.7.13@squash-web"
 
 set :linked_files, %w{config/database.yml config/initializers/secret_token.rb}
 set :linked_dirs, %w{bin log tmp/pids}
